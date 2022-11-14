@@ -10,14 +10,14 @@ const AccordionSection = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 100vh;
+  height: 170vh;
   background: #fff;
   margin top:30px;
 `;
 
 const Container = styled.div`
   position: absolute;
-  top: 9%;
+  top: 6%;
   box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
 `;
 
@@ -54,7 +54,7 @@ const Dropdown = styled.div`
   border-top: 1px solid #00ffb9;
 
   p {
-    font-size: 2rem;
+    font-size: 0rem;
   }
 `;
 
