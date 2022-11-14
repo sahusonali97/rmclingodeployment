@@ -31,8 +31,7 @@ const Home = () => {
             <Operation/>
            <Boxmodel/>
              <Dual/>
-
-            <Footer />
+          <Footer />
 
            
             

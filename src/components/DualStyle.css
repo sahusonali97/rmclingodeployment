@@ -38,6 +38,9 @@ body{
     max-width: 60%;
     border: 1px solid #333;
 }
+.left p{
+    font-size: 13px;
+}
 
 .right .top {
     grid-column: 1 / span 8;

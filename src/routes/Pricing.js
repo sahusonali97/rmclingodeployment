@@ -6,6 +6,7 @@ import HeroImage from '../components/HeroImage'
 import Video from '../components/Video'
 
 import AccSection from '../components/AccSection'
+import Admission from '../components/Admission'
 
 
 
@@ -18,6 +19,7 @@ const Pricing = () => {
             <HeroImage heading='Choose your Language' text='.' />
             <PricingCards />
             <AccSection/>
+            <Admission/>
             <Footer />
         </div>
     )

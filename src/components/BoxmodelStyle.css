@@ -10,6 +10,7 @@
     display: grid;
     grid-gap: 40px;
     grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(2, 2, 90);
 }
 
 .card-containerS.cardS {
@@ -20,6 +21,7 @@
 .cardS {
     text-align: center;
     padding: 1rem;
+    font-size: small;
 }
 
 .cardS:hover {
@@ -39,7 +41,7 @@
 }
 
 .cardS .btc {
-    font-size: 4rem;
+    font-size:  small;
     font-weight: 600;
     padding: 1rem;
 }

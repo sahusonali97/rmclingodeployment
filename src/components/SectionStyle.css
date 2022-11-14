@@ -18,16 +18,22 @@
 }
 .blue{
     color:blue;
+    font-size: small;
+
 }
 .red{
     color:red;
+    font-size: small;
 }
 .meroon{
 color: rgba(104, 6, 6, 0.952);
+font-size: small;
 }
 .green{
     color:green;
+    font-size: small;
 }
 .light{
-    color:rgb(63, 136, 247)
+    color:rgb(63, 136, 247);
+    font-size: small;
 }
