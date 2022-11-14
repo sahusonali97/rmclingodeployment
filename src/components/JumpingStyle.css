@@ -6,13 +6,14 @@
     background-color: rgba(2, 68, 94, 0.8)!important;
     align-items:left;
     color: rgb(10, 10, 10);
-    line-height: 100px;
-    height: 550px;
-    
-    align-items: center;
+    line-height: 40px;
+    height: 650px;
+   
+    align-items:bottom;
     padding: 1rem;
     z-index: 10;
-    background: url('../assets/twint.png')  no-repeat center ;
+    background: url('../assets/twint.png')  no-repeat right;
+    
 
     
     
@@ -20,8 +21,8 @@
 }
 
 .redA{
-    color:rgb(128, 9, 9);
-    font-size: 250%;
+    color:rgb(253, 11, 11);
+    font-size: 350%;
 font-display:calc(10);
 
 }

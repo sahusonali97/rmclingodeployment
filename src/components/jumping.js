@@ -6,7 +6,7 @@ const Jumping = () => {
 
         <div className="sizeA">
         <ul>
-                <li className="redA"><b><marquee>Take a jumpstart and become a linguist with RMC Lingo!
+                <li className="redA"><b><marquee>Take a jumpstart and become a linguist with RMC Lingo! Our World-class academicians train you discover your genius.
 </marquee>
 </b>
 </li>

@@ -30,7 +30,7 @@
 .hero p {
     font-size: 1.8rem;
     font-weight: 200;
-    text-transform: uppercase;
+    text-transform:none;
     margin-bottom: 1.6rem;
     color: #fff;
 }

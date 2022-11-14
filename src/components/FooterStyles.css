@@ -2,6 +2,7 @@
     width: 100%;
     padding: 6rem 0;
     background: rgb(5, 5, 73);
+    font-size: x-small;
 }
 
 .footer-container {
@@ -59,6 +60,9 @@
 
     .right .social {
         margin: auto;
+    }
+    .fontsize{
+        font-size: x-small;
     }
    
 }
