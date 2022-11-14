@@ -1,70 +1,107 @@
 import React from "react";
-import company from '../assets/sefie.jpeg';
-import cult from '../assets/look.jpeg';
-import office from '../assets/meet.jpeg';
-import "./GermanStyle.css";
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import Video from '../components/Video'
+import arabman from "../assets/god.jpeg";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
+import Video from "./Video";
+import market from "../assets/people.jpeg";
+import dubai from "../assets/bhut.jpeg";
 
-
-
-function German() {
-    return(
+function Arabic() {
+  return (
     <div>
-<Navbar></Navbar>
-<Video></Video>
-   
-        <div class="how-section1">
-            <div class="row">
-                <div class="col-md-6 how-img">
-                    <img src={office} class="rounded-circle img-fluid" alt=""/>
-                </div>
-                <div class="col-md-6">
-                    <h4>GERMAN LANGUAGE PROGRAM
-</h4>
-                                <h4 class="subheading">About the Language:
- 
- </h4>
-                <p class="text"> If you have ever wondered about German language etymology, you are not alone. German is one of the most important languages in the world, and many people learn it for their careers. The language has a number of distinct types, including Low German, Germanic dialects, inflected, and pluricentric. Its differences from English and other languages make it important for any language lover to learn and understand.
-RMC Lingo offers the best learning solutions in German language, both offline and online mode. German language belongs to the group of West Germanic Languages which is one of the most widely used spoken languages in central Europe. It is a co-official language of many European nations such as Austria, Switzerland, Liechtenstein, Luxemburg, Hungary, Poland, Denmark and many more.</p>
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <h4>Why learns ?
-
-</h4>
-<p class="text" >Realizing that Spanish is spoken in more than 21 countries, learning Spanish is a good choice and can open doors to numerous career opportunities. The largest Spanish investors in India are Cobra (engineering), the Duro Felguera Group (turnkey operations), Coinma (office furniture) and Agroalimen. Other Spanish companies that have a presence in India include Acciona (construction), Albertis (infrastructure), Aldeasa (duty free airport shops), Banco Sadabell, BBVA (bank), Cintra (toll road operator), Mondragón (a corporate cooperative in the Basque Country), Corte Ingles (retailing), Garrigues (law firm), Pascual Group (food), Keraben (ceramics), Mango (textiles), Mapfre Group (insurance), Taurus (home appliances) and Union Fenosa (electric power). 
-
- </p>
-                </div>
-                <div class="col-md-6 how-img">
-                    <img src={company} class="rounded-circle img-fluid" alt=""/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 how-img">
-                    <img src={cult} class="rounded-circle img-fluid" alt=""/>
-                </div>
-                <div class="col-md-6">
-                    <h4>Career opportunities for Spanish speakers
-
-</h4>
-                                <h4 class="subheading"></h4>
-                                <p class="text">Learning the Spanish language offers you numerous opportunities. You can work in many fields, including health care, tourism, and government. Spanish-speaking professionals are more sought-after by employers than non-speakers. You may even be able to land a job in an exotic location.
-Spanish is widely spoken in the Americas, the Caribbean, and parts of Europe. It is the first language of 400 to 450 million people. The language is now the second most popular language in the world, only behind Mandarin. In the past few years, the number of people who are learning Spanish has increased by 800 percent. It is now the third most searched language on the Internet.
-
-</p>
-                </div>
-            </div>
-            
-            
+      <Navbar></Navbar>
+      <Video></Video>
+      <div className="how-section1">
+        <div className="row">
+          <div className="col-md-6 how-img">
+            <img src={arabman} className="img-fluid" alt="" />
+          </div>
+          <div className="col-md-6">
+            <h4>ARABIC LANGUAGE PROGRAM</h4>
+            <h4 className="subheading">About the Language</h4>
+            <h3>مرحبًا (Marhaba- hello)</h3>
+            <p className="text">
+            <p className="text-justify"> Arab is a state of rich and varied cultural heritage. Right from
+              lovely handicrafts, to lip-smacking aromatic food, and plenty of
+              great literary work, Arab has in much more store for you other
+              than just oil wells. If you have the Arabic language, then you
+              have a lot of job options waiting for you. There are a lot of
+              industries that require Arabic speakers, and you can even work as
+              an interpreter. These days, interpreters are in high demand. In
+              this article, we will discuss some of the job options available
+              for Arabic speakers. RMC Lingo offers the best learning solutions
+              in foreign language, both offline and online mode.
+            </p></p>
+            <h4 className="subheading">Ushakov’s dictionary</h4>
+            <p>
+            <p className="text-justify">Ushakov’s dictionary for the Russian language is a comprehensive
+              reference tool. Its entries include a definition and the etymology
+              of each word, as well as forms in other languages. In addition,
+              each entry has references to its sources. It is also organized
+              alphabetically by etymological groups. The Ushakov’s dictionary
+              contains more than 700 entries and scholarly information on
+              various aspects of Russian language etymology. The entries range
+              in length from a single paragraph to several pages. They are
+              designed to be easy to read and easy to understand.
+            </p></p>
+          </div>
         </div>
-        <Footer></Footer>
+        <div className="row">
+          <div className="col-md-6">
+            <h4 className="text-center">Why Learn Arabic?</h4>
+
+            <p className="text-center">
+            <p className="text-justify"> Learning Arabic offers great business and career opportunities.
+              Since the Middle East is witnessing an increasing growth in
+              international affairs, there is a huge shortage of workers who are
+              versed in Arabic language and culture. Those who study Arabic can
+              find careers in diverse fields such as journalism, business &
+              industry, education, finance, banking, translation &
+              interpretation, consulting, foreign service and intelligence etc.
+            </p></p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-6 how-img">
+            <img src={dubai} className="img-fluid h-400 w-400 mt-4" alt="" />
+          </div>
+          <div className="col-md-6">
+            <h4>CAREER OPTIONS</h4>
+            <h3 className="subheading"> Careers in the Middle East</h3>
+            <p className="text">
+            <p className="text-justify">The Middle East is an important part of the global economy, and a
+              good understanding of the Arabic language can be advantageous for
+              careers in this region. Those seeking employment in the region can
+              find employment in a variety of fields, including translation and
+              information gathering for a foreign embassy. They can also find
+              employment in non-governmental organizations, banking and
+              consulting, and medical services. In addition to these positions,
+              Arabic speakers can pursue a variety of business careers.
+            </p></p>
+            <h3 className="subheading">Trading industry </h3>
+            <p>
+            <p className="text-justify">Speaking Arabic is an excellent way to gain valuable work
+              experience and enhance your professional status. The Arab world is
+              an area with many natural resources and having knowledge of this
+              language will give you an edge in the job market. Aside from this,
+              it is also beneficial to understand the language’s culture,
+              history, and traditions. Moreover, there are many job
+              opportunities available in this region, as the number of
+              Arabic-speaking people is constantly increasing.
+            </p></p>
+            <h3 className="subheading">Travelling Abroad</h3>
+            <p className="text">
+            <p className="text-justify"> If you are looking to travel abroad for global job opportunities,
+              you may be interested in learning the Arabic language. The
+              Department of State and the Department of Defence both offer
+              programs to help you learn the language. The programs also offer
+              scholarships to help you pay for your study abroad experience.
+            </p></p>
+          </div>
+        </div>
+      </div>
+      <Footer></Footer>
     </div>
-    
-    );
+  );
 }
-export default German;
+export default Arabic;

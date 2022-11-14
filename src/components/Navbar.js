@@ -49,12 +49,11 @@ import './NavbarStyles.css'
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       <li><a class="dropdown-item" ><Link to='/German'>German Language</Link></a></li>
                       <li><a class="dropdown-item" ><Link to='/French'>French Language</Link></a></li>
-                      <li><a class="dropdown-item" href="#"><Link to='/Spanish'>Spanish Language</Link></a></li>
-                      <li><a class="dropdown-item" href="#"><Link to='/English'>English Language</Link></a></li>
-                      <li><a class="dropdown-item" href="#"></a></li>
-                      <li><a class="dropdown-item" href="#"></a></li>
-                      <li><a class="dropdown-item" href="#"></a></li>
-           
+                      <li><a class="dropdown-item" ><Link to='/English'>English Language</Link></a></li>
+                      <li><a class="dropdown-item" ><Link to='/Spanish'>Spanish Language</Link></a></li>
+                      <li><a class="dropdown-item"><Link to='/Japanies'>Japanese Language</Link></a></li>
+                      <li><a class="dropdown-item" ><Link to='/Arabic'>Arabic Language</Link></a></li>
+                      <li><a class="dropdown-item" ><Link to='/Russian'>Russian Language</Link></a></li>
                     </ul>
                   </li>
                   <li class="nav-item">

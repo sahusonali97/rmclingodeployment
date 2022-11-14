@@ -1,0 +1,27 @@
+
+.sizeA {
+    display:flex;
+    justify-content:space-around;
+    padding: 10px 50px;
+    background-color: rgba(2, 68, 94, 0.8)!important;
+    align-items:left;
+    color: rgb(10, 10, 10);
+    line-height: 100px;
+    height: 550px;
+    
+    align-items: center;
+    padding: 1rem;
+    z-index: 10;
+    background: url('../assets/twint.png')  no-repeat center ;
+
+    
+    
+    
+}
+
+.redA{
+    color:rgb(128, 9, 9);
+    font-size: 250%;
+font-display:calc(10);
+
+}

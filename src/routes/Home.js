@@ -7,6 +7,12 @@ import Section from '../components/Section'
 import Operation from '../components/Operation'
 import Boxmodel from '../components/Boxmodel'
 import Dual from '../components/Dual'
+import Jumping from '../components/jumping'
+
+
+
+
+
 
 
 
@@ -19,11 +25,13 @@ const Home = () => {
         <div>
             <Navbar />
             <Video />
+            <Jumping/>
             <Midbar/>
             <Section/>
             <Operation/>
            <Boxmodel/>
-        <Dual/>
+             <Dual/>
+
             <Footer />
 
            

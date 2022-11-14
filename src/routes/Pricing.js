@@ -4,7 +4,11 @@ import Footer from '../components/Footer'
 import PricingCards from '../components/Pricing'
 import HeroImage from '../components/HeroImage'
 import Video from '../components/Video'
-import LanGer from '../components/LanGer'
+
+import AccSection from '../components/AccSection'
+
+
+
 
 const Pricing = () => {
     return (
@@ -13,7 +17,7 @@ const Pricing = () => {
             <Video/>
             <HeroImage heading='Choose your Language' text='.' />
             <PricingCards />
-            <LanGer/>
+            <AccSection/>
             <Footer />
         </div>
     )

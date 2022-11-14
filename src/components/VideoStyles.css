@@ -45,9 +45,10 @@
     }
 
     .content p {
-        font-size: 1.4rem;
+    font-size: 3rem !important;
         margin-bottom: 1.6rem;
     }
+
 }
 
 

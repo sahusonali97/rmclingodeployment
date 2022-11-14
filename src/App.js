@@ -9,6 +9,13 @@ import Training from './routes/Training';
 import German from './components/German'
 import French from './components/French';
 import English from './components/English';
+import Spanish from './components/Spanish';
+import Japanies from './components/Japanies';
+import Arabic from './components/Arabic';
+import Russian from './components/Russian';
+
+
+
 
 function App() {
   return (
@@ -22,6 +29,13 @@ function App() {
         <Route path='/German' element={<German/>} />
         <Route path='/French' element={<French/>} />
         <Route path='/English' element={<English/>} />
+        <Route path='/Spanish' element={<Spanish/>} />
+        <Route path='/Japanies' element={<Japanies/>} />
+        <Route path='/Arabic' element={<Arabic/>} />
+        <Route path='/Russian' element={<Russian/>} />
+        
+
+       
        
 
       </Routes>

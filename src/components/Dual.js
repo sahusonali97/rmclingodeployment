@@ -12,7 +12,7 @@ const Dual = () => {
         <div className='training'>
             <div className='left'>
                 <h1>Placement Opportunity  </h1>
-                <p>Upon completion of the desired courses, student will require to undergo for various placement opportunity. Within our network of partners who hire candidates for linguistic skills and also for various jobs opportunities. Our clients are from different industries and countries and students can select according to their preferences.
+                <p  className="text-justify">Upon completion of the desired courses, student will require to undergo for various placement opportunity. Within our network of partners who hire candidates for linguistic skills and also for various jobs opportunities. Our clients are from different industries and countries and students can select according to their preferences.
 </p>
                 <Link to='/contact'><button className='btn'>  CALL NOW</button></Link>
             </div>
