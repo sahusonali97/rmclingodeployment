@@ -33,8 +33,15 @@ import './NavbarStyles.css'
                   <li class="nav-item"color='white'>
                     <a class="nav-link active" aria-current="page"  > <Link to='/'>Home</Link></a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link"> <Link to='/About'> About Us</Link></a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                      About Us
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" ><Link to='/SliShow'>Director’s Message</Link></a></li>
+                     
+        
+                    </ul>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link"><Link to='/Pricing'> FAQs</Link></a>

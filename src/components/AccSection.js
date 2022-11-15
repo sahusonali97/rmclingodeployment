@@ -3,6 +3,8 @@ import { Data } from './AccordionData';
 import styled from 'styled-components';
 import { IconContext } from 'react-icons';
 import { FiPlus, FiMinus } from 'react-icons/fi';
+import { Bluetooth } from '@mui/icons-material';
+
 
 const AccordionSection = styled.div`
   display: flex;
@@ -11,7 +13,7 @@ const AccordionSection = styled.div`
   justify-content: center;
   position: relative;
   height: 170vh;
-  background: #fff;
+  backgrounds: #fff;
   margin top:30px;
 `;
 
@@ -42,16 +44,16 @@ const Wrap = styled.div`
 `;
 
 const Dropdown = styled.div`
-  background: #1c1c1c;
-  color: #00ffb9;
+  background: #C0C0C0;
+  color: #FFFFFF;
   width: 100%;
   height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid #00ffb9;
-  border-top: 1px solid #00ffb9;
+  border-bottom: 1px solid #C0C0C0;
+  border-top: 1px solid #C0C0C0;
 
   p {
     font-size: 0rem;
@@ -83,7 +85,7 @@ const AccSection = () => {
                 </Wrap>
                 {clicked === index ? (
                   <Dropdown>
-                    <p>{item.answer}</p>
+                    <p>{item.answer[index]}</p>
                   </Dropdown>
                 ) : null}
               </>

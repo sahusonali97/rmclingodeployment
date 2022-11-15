@@ -20,18 +20,21 @@ import Jumping from '../components/jumping'
 
 
 
+
 const Home = () => {
     return (
         <div>
             <Navbar />
             <Video />
+           
             <Jumping/>
+            
             <Midbar/>
             <Section/>
             <Operation/>
            <Boxmodel/>
              <Dual/>
-          <Footer />
+             <Footer />
 
            
             

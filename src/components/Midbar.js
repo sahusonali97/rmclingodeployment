@@ -18,7 +18,7 @@ International travel is made easier and analytical skills improve when student s
                     <p className="text-justify">Foreign language study enhances one’s opportunities in government, business, medicine, law, technology, military, industry, marketing, etc.
 Foreign language provides a competitive edge in career choices.
 </p>
-                    <Link to='/contact' className='btn'>Book</Link>
+                   
                 </div>
                 
             </div>
