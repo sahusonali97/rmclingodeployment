@@ -1,8 +1,8 @@
 import React from "react";
-import company from '../assets/sefie.jpeg';
+import company from '../assets/md.jpg';
 
 import office from '../assets/eng.jpeg';
-import "./EnglishStyle.css";
+import "./DirectorStyle.css";
 
 import Navbar from '../components/Navbar'
 import Video from '../components/Video'
@@ -44,7 +44,7 @@ The two main English language proficiency tests accepted at universities across 
 
  </p>
                 </div>
-                <div class="col-md-6 how-img">
+                <div class="col-md-3 how-img">
                     <img src={company} class=" img-fluid" alt=""/>
                 </div>
             </div>

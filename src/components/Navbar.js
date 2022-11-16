@@ -38,9 +38,8 @@ import './NavbarStyles.css'
                       About Us
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" ><Link to='/SliShow'>Director’s Message</Link></a></li>
-                     
-        
+                      <li><a class="dropdown-item" ><Link to='/SecAbout'>About Us</Link></a></li>
+                      <li><a class="dropdown-item" ><Link to='/Director'>Director's message</Link></a></li>
                     </ul>
                   </li>
                   <li class="nav-item">

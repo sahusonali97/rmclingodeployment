@@ -13,6 +13,14 @@ import Spanish from './components/Spanish';
 import Japanies from './components/Japanies';
 import Arabic from './components/Arabic';
 import Russian from './components/Russian';
+import SecAbout from './components/SecAbout';
+import Director from './components/Director';
+
+
+
+
+
+
 
 
 
@@ -33,6 +41,10 @@ function App() {
         <Route path='/Japanies' element={<Japanies/>} />
         <Route path='/Arabic' element={<Arabic/>} />
         <Route path='/Russian' element={<Russian/>} />
+        <Route path='/SecAbout' element={<SecAbout/>} />
+        <Route path='/Director' element={<Director/>} />
+       
+
         
 
        

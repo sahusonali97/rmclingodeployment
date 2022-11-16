@@ -3,9 +3,17 @@ import company from '../assets/sefie.jpeg';
 import cult from '../assets/look.jpeg';
 import office from '../assets/meet.jpeg';
 import "./SAbout.css";
+import Navbar from '../components/Navbar'
+import Video from '../components/Newvideo'
+import Footer from '../components/Footer'
+
 
 function SecAbout() {
     return(
+        <div>
+            <Navbar></Navbar>
+            <Video></Video>
+           
         <div class="how-section1">
             <div class="row">
                 <div class="col-md-6 how-img">
@@ -14,8 +22,7 @@ function SecAbout() {
                 <div class="col-md-6">
                     <h4>ABOUT US</h4>
                                 <h4 class="subheading"><p className="text-justify">With the introduction of more than 12+ languages like German, French, Spanish, Japanese, Arabic and many more under single roof. We are much and more enthusiast by introducing in English proficiency domain for IELTS & TOEFL pedagogy.</p></h4>
-                <p class="text"><p className="text-justify">The advantages of learning foreign languages are mushrooming as the world becomes increasingly globalized and bilingualism is now perhaps the most useful real-world skill to ever exist. Along with economic globalization, social mobility has also raised the demand of learning foreign languages other than English. The ability to communicate in multiple languages is become more and more important in the increasingly integrated global business communication. Due to overwhelming demand in various regional and foreign languages over the past couple of years and addressing this need of hour with a vision to remove communication barriers RMC Group began expanding its linguistic sphere with the name of RMC Lingo – The Proactive Language Lab; A vision to be the remarkable choice for educational sphere in the linguistic world
-.</p></p>
+                <p class="text"><p className="text-justify">The advantages of learning foreign languages are mushrooming as the world becomes increasingly globalized and bilingualism is now perhaps the most useful real-world skill to ever exist. Along with economic globalization, social mobility has also raised the demand of learning foreign languages other than English. The ability to communicate in multiple languages is become more and more important in the increasingly integrated global business communication. Due to overwhelming demand in various regional and foreign languages over the past couple of years and addressing this need of hour with a vision to remove communication barriers RMC Group began expanding its linguistic sphere with the name of RMC Lingo – The Proactive Language Lab; A vision to be the remarkable choice for educational sphere in the linguistic world.</p></p>
                 </div>
             </div>
             <div class="row">
@@ -42,6 +49,9 @@ function SecAbout() {
             
             
         </div>
+        <Footer></Footer>
+        </div>
+        
     );
 }
 export default SecAbout;

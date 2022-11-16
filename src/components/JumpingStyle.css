@@ -21,9 +21,12 @@
 }
 
 .redA{
-    color:rgb(253, 11, 11);
+    color:rgb(247, 244, 244);
     font-size: 350%;
 font-display:calc(10);
 
 }
-
+.text-style
+{
+    font-size: 13px; 
+}

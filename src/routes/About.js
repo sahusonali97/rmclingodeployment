@@ -1,8 +1,10 @@
 import React from 'react'
-import Footer from '../components/Footer'
+
 import Navbar from '../components/Navbar'
 import Newvideo from '../components/Newvideo'
 import SecAbout from '../components/SecAbout'
+import Footer from '../components/Footer'
+import Director from '../components/Director'
 
 
 
@@ -15,9 +17,10 @@ import SecAbout from '../components/SecAbout'
 const About = () => {
     return (
         <div>
-            <Navbar />
-            <Newvideo />
+            <Navbar/>
+            <Newvideo/>
             <SecAbout/>
+            <Director/>
             <Footer />
         </div>
     )

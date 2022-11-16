@@ -21,6 +21,7 @@ import Jumping from '../components/jumping'
 
 
 
+
 const Home = () => {
     return (
         <div>

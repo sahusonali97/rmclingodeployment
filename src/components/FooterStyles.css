@@ -1,8 +1,8 @@
 .footer {
     width: 100%;
     padding: 6rem 0;
-    background: rgb(5, 5, 73);
-    font-size: x-small;
+    background: rgba(0,0,0,.8);
+	background-color:rgb(1, 1, 58);
 }
 
 .footer-container {
@@ -61,10 +61,6 @@
     .right .social {
         margin: auto;
     }
-    .fontsize{
-        font-size: x-small;
-    }
-   
 }
 
 

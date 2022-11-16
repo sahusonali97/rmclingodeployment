@@ -22,4 +22,4 @@ const Newvideo = () => {
     )
 }
 
-export default Newvideo
+export default Newvideo;

@@ -10,7 +10,8 @@ const Jumping = () => {
 </marquee>
 </b>
 <div className='text-style'>
-
+<p>Our World-class academicians train you discover your genius.
+</p>
 </div>
 
 </li>
