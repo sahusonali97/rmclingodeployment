@@ -24,9 +24,20 @@
     color:rgb(247, 244, 244);
     font-size: 350%;
 font-display:calc(10);
+color: #ffa500;
+        font-weight: bold;
+        font-size: 30px;
 
 }
 .text-style
 {
     font-size: 13px; 
+    
+
+}
+.maq{
+    width: 30px !important;
+}
+.text-size{
+    width: 100px;
 }

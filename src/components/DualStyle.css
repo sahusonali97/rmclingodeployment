@@ -62,8 +62,15 @@ body{
     .training .img {
         max-width: 100%;
     }
+   
+    }
+   .training h1{
+        color: #ffa500;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
 
-}
 
 
 

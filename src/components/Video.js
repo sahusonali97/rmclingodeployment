@@ -12,7 +12,7 @@ const Video = () => {
             </video>
             <div className='content'>
                 <h1>Rmc Lingo</h1>
-                <p className="fontname"> RMC Lingo – The Proactive language lab!</p>
+                <p> RMC Lingo – The Proactive language lab!</p>
                 
                 <div>
                     <Link to='/training' className='btn'>Training</Link>

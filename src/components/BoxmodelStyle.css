@@ -5,10 +5,10 @@
 }
 
 .card-containerS {
-    max-width: 1140px;
+    max-width: 1700px;
     margin: auto;
     display: grid;
-    grid-gap: 40px;
+    grid-gap: 90px;
     grid-template-columns: repeat(3, 1fr);
     background-color: rgb(2, 2, 90);
 }
@@ -64,6 +64,9 @@
         margin: auto;
         grid-template-columns: 1fr;
     }
+   .head{
+    color:darkgoldenrod!important;
+   }
    
 }
 
