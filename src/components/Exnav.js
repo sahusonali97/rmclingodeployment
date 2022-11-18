@@ -3,8 +3,6 @@ import styled, { css } from "styled-components";
 import { FaTwitter, FaPhone, FaInstagram, FaFacebook, FaEnvelope } from "react-icons/fa";
 import './ExnavStyle.css'
 
-var FontAwesomeIcon = require('react-fontawesome')
-
 function Exnav(props) {
   return (
     <Rect>
