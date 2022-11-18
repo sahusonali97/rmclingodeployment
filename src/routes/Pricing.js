@@ -20,6 +20,7 @@ const Pricing = () => {
             <PricingCards />
             <AccSection/>
             <Admission/>
+            
             <Footer />
         </div>
     )

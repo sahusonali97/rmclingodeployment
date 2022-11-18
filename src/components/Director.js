@@ -2,7 +2,7 @@ import React from "react";
 import company from '../assets/af.png';
 
 import office from '../assets/md.jpg';
-import "./EnglishStyle.css";
+import "./DirectorStyle.css";
 
 import Navbar from '../components/Navbar'
 import Video from '../components/Newvideo'
@@ -20,6 +20,12 @@ function English() {
             <div class="row">
                 <div class="col-md-6 how-img">
                     <img src={office} class=" img-fluid" alt=""/>
+                    <figcaption >
+                    <p>Mohammad Imteyaz (Noorani)</p>
+                <p>Managing Director</p>
+                <p>RMC Lingo</p>
+                <p>(Under RMC Group of Companies)</p>
+                    </figcaption>
                 </div>
                 <div class="col-md-6">
                     <h4>Managing Director’s Message
@@ -50,8 +56,13 @@ We are confident we would equip our students with clarity for making intelligent
 
 
 </p></p>
+
                 </div>
+                
+               
+            
             </div>
+           
             <div class="row">
                 <div class="col-md-6">
                     <h4>Executive Director’s Message

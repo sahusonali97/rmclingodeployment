@@ -8,6 +8,10 @@ import Operation from '../components/Operation'
 import Boxmodel from '../components/Boxmodel'
 import Dual from '../components/Dual'
 import Jumping from '../components/jumping'
+import Exnav from '../components/Exnav'
+
+
+
 
 
 
@@ -25,6 +29,7 @@ import Jumping from '../components/jumping'
 const Home = () => {
     return (
         <div>
+            <Exnav/>
             <Navbar />
             <Video />
            
@@ -35,6 +40,7 @@ const Home = () => {
             <Operation/>
            <Boxmodel/>
              <Dual/>
+          
              <Footer />
 
            

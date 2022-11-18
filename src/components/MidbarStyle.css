@@ -6,9 +6,10 @@ body{
 
 .pricing {
     width: 100%;
-    padding: 2rem 2rem;
+    padding: 2rem 3rem;
     background-color: rgba(2, 68, 94, 0.8)!important;
     background: url('../assets/B2.jpeg') no-repeat right;
+    height: 700px!important;
     
 }
 
@@ -39,7 +40,7 @@ body{
 .card h3 {
     font-size: 1.2rem;
 
-    color: #ffa500;
+    color:#49CBF4!important;
     font-weight: bold;
         
 }

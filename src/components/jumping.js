@@ -2,7 +2,9 @@ import React from "react";
 import company from '../assets/twint.png';
 
 
-import "./EnglishStyle.css";
+
+
+import "./JumpingStyle.css";
 
 
 
@@ -23,7 +25,7 @@ function jumping () {
                 </div>
             </div>
             <div className="text-size">
-            <p><marquee>Take a jumpstart and become a linguist with RMC Lingo</marquee>
+            <p className="para"><marquee className="marquee-text" >Take a jumpstart and become a linguist with RMC Lingo</marquee>
 </p>
 </div>
             <div class="row">
@@ -39,7 +41,7 @@ RMC Lingo – The proactive way to become a linguist.The proactive language lab 
 
                 </div>
                 <div class="col-md-6 how-img">
-                    <img src={company} class=" img-fluid" alt=""/>
+                    <img src={company} class=" img-fluid" alt="" />
                 </div>
             </div>
             <div class="row">

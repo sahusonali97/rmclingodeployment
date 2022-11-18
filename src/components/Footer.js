@@ -18,7 +18,7 @@ const Footer = () => {
                         <h4><FaPhone size={20} style={{ color: '#ffffff', marginRight: '2rem' }} />+91 9810770128 </h4>
                     </div>
                     <div className='email'>
-                        <h4><FaMailBulk size={20} style={{ color: '#ffffff', marginRight: '2rem' }} />Info@Rmclingo.com</h4>
+                        <h4><FaMailBulk size={20} style={{ color: '#ffffff', marginRight: '2rem' }} />Info@rmclingo.com</h4>
                     <h4 className='fontsize'><b>Address</b> :-3rd Floor, Style Living Mall,  Jasola New Delhi - 110025</h4>
                     </div>
                 </div>

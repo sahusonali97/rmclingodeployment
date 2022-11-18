@@ -8,13 +8,15 @@
     color: rgb(10, 10, 10);
     line-height: 40px;
     height: 650px;
-   
+
     align-items:bottom;
     padding: 1rem;
     z-index: 10;
     background: url('../assets/twint.png')  no-repeat right;
     
 
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(21, 21, 22)!important;
     
     
     
@@ -38,6 +40,8 @@ color: #ffa500;
 .maq{
     width: 30px !important;
 }
-.text-size{
-    width: 100px;
+.text-size p{
+    font-size: 50px !important;
+    color: #ffa500;
+        font-weight: bold;
 }

@@ -23,8 +23,6 @@ import Director from './components/Director';
 
 
 
-
-
 function App() {
   return (
     <>
@@ -43,7 +41,7 @@ function App() {
         <Route path='/Russian' element={<Russian/>} />
         <Route path='/SecAbout' element={<SecAbout/>} />
         <Route path='/Director' element={<Director/>} />
-       
+        
 
         
 
