@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 import LanGer from '../components/LanGer'
 import Navbar from '../components/Navbar'
 import Newvideo from '../components/Newvideo'
-
+import Exnav from '../components/Exnav'
 
 
 
@@ -16,6 +16,7 @@ import Newvideo from '../components/Newvideo'
 const Language = () => {
     return (
         <div>
+            <Exnav/>
             <Navbar />
             <Newvideo />
          

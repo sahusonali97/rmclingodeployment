@@ -6,11 +6,14 @@ import "./SAbout.css";
 import Navbar from '../components/Navbar'
 import Video from '../components/Newvideo'
 import Footer from '../components/Footer'
+import Exnav from '../components/Exnav'
+
 
 
 function SecAbout() {
     return(
         <div>
+            <Exnav></Exnav>
             <Navbar></Navbar>
             <Video></Video>
            

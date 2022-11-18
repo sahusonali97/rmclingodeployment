@@ -6,12 +6,14 @@ import "./FrenchStyle.css";
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Video from '../components/Video'
+import Exnav from '../components/Exnav'
 
 
 
 function French() {
     return(
     <div>
+        <Exnav></Exnav>
 <Navbar></Navbar>
 <Video></Video>
    

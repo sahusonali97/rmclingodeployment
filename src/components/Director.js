@@ -7,12 +7,15 @@ import "./DirectorStyle.css";
 import Navbar from '../components/Navbar'
 import Video from '../components/Newvideo'
 import Footer from '../components/Footer'
+import Exnav from '../components/Exnav'
+
 
 
 
 function English() {
     return (
         <div>
+            <Exnav></Exnav>
             <Navbar></Navbar>
             <Video></Video>
 
@@ -21,7 +24,7 @@ function English() {
                     <div class="col-md-6 how-img">
                         <img src={office} class=" img-fluid" alt="" />
                         <figcaption className="text-justify" >
-                            <p><b>Mohammad Imteyaz (Noorani)</b></p>
+                            <p c><b>Mohammad Imteyaz (Noorani)</b></p>
                             <p>Managing Director</p>
                             <p>RMC Lingo</p>
                             <p>(Under RMC Group of Companies)</p>
@@ -78,6 +81,12 @@ function English() {
                     </div>
                     <div class="col-md-6 how-img">
                         <img src={company} class=" img-fluid" alt="" />
+                        <figcaption className="text-justify" >
+                            <p c><b>Aftab H Niazi</b></p>
+                            <p>Executive Director</p>
+                            <p>RMC Lingo</p>
+                            <p>(Under RMC Group of Companies)</p>
+                        </figcaption>
                     </div>
                 </div>
                 <div class="row">

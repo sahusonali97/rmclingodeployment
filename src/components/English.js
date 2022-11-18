@@ -1,8 +1,8 @@
 import React from "react";
-import company from '../assets/md.jpg';
+import company from '../assets/beuty.jpeg';
 
 import office from '../assets/eng.jpeg';
-import "./DirectorStyle.css";
+import "./EnglishStyle.css";
 
 import Navbar from '../components/Navbar'
 import Video from '../components/Video'

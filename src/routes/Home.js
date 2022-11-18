@@ -9,6 +9,7 @@ import Boxmodel from '../components/Boxmodel'
 import Dual from '../components/Dual'
 import Jumping from '../components/jumping'
 import Exnav from '../components/Exnav'
+import Admission from '../components/Admission'
 
 
 
@@ -34,7 +35,7 @@ const Home = () => {
             <Video />
            
             <Jumping/>
-            
+            <Admission/>
             <Midbar/>
             <Section/>
             <Operation/>

@@ -5,6 +5,7 @@ import Newvideo from '../components/Newvideo'
 import SecAbout from '../components/SecAbout'
 import Footer from '../components/Footer'
 import Director from '../components/Director'
+import Exnav from '../components/Exnav'
 
 
 
@@ -17,6 +18,7 @@ import Director from '../components/Director'
 const About = () => {
     return (
         <div>
+            <Exnav/>
             <Navbar/>
             <Newvideo/>
             <SecAbout/>

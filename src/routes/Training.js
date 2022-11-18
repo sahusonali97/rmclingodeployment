@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 import HeroImage from '../components/HeroImage'
 import Navbar from '../components/Navbar'
 import TrainingSection from '../components/Training'
-import Extranavbar from '../components/Extranavbar'
+import Exnav from '../components/Exnav'
 
 
 
@@ -11,11 +11,12 @@ import Extranavbar from '../components/Extranavbar'
 const Training = () => {
     return (
         <div>
+            <Exnav/>
             <Navbar />
             <HeroImage heading='TRAINING' text='Our virtual classes are real-time live streaming with native teachers who have years of experience teaching foreign languages. You will learn and practice foreign language at your convenience without stepping out from your home or office.
 ' />
             <TrainingSection />
-            <Extranavbar/>
+           
             <Footer />
         </div>
     )
