@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import company from '../assets/finalger.jpeg';
 import cult from '../assets/look.jpeg';
 import office from '../assets/meet.jpeg';
@@ -7,9 +7,14 @@ import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Video from '../components/Video'
 
+import Aos from "aos";
 
 
-function German() {
+
+const German = ()=> {
+    useEffect(() => {
+        Aos.init ({duration:2000});
+    },{});
     return(
     <div>
 <Navbar></Navbar>
@@ -18,7 +23,7 @@ function German() {
         <div class="how-section1">
             <div class="row">
                 <div class="col-md-6 how-img">
-                    <img src={office} class="rounded-circle img-fluid mt-3" alt=""/>
+                    <img src={office} class="rounded-circle img-fluid mt-3" data-aos="flip-right" alt=""/>
                 </div>
                 <div class="col-md-6">
                     <h4>GERMAN LANGUAGE PROGRAM
@@ -40,12 +45,12 @@ RMC Lingo offers the best learning solutions in German language, both offline an
  </p>
                 </div>
                 <div class="col-md-6 how-img">
-                    <img src={company} class="img-fluid" alt=""/>
+                    <img src={company} class="img-fluid" data-aos="fade-down-right" alt=""/>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 how-img">
-                    <img src={cult} class="rounded-circle img-fluid" alt=""/>
+                    <img src={cult} class="rounded-circle img-fluid" data-aos="flip-left" alt=""/>
                 </div>
                 <div class="col-md-6">
                     <h4>Career Options

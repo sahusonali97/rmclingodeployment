@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import company from '../assets/twint.png';
-
+import Aos from "aos";
 
 
 
@@ -9,7 +9,11 @@ import "./JumpingStyle.css";
 
 
 
-function jumping () {
+const Jumping = ()=> {
+    useEffect(() => {
+        Aos.init ({duration:2000});
+    },{});
+        
     return(
 
 
@@ -41,7 +45,7 @@ RMC Lingo – The proactive way to become a linguist.The proactive language lab 
 
                 </div>
                 <div class="col-md-6 how-img">
-                    <img src={company} class=" img-fluid" alt="" />
+                    <img src={company} class=" img-fluid"  data-aos="flip-down" alt="" />
                 </div>
             </div>
             <div class="row">
@@ -56,4 +60,4 @@ RMC Lingo – The proactive way to become a linguist.The proactive language lab 
     
     );
 }
-export default jumping;
+export default Jumping;
