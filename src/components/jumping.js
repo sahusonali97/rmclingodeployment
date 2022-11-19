@@ -35,13 +35,14 @@ const Jumping = ()=> {
             <div class="row">
                 <p>
 </p>
-                <div class="col-md-6">
-                    <h4>Our World-class academicians train you discover your genius.
-RMC Lingo – The proactive way to become a linguist.The proactive language lab helps to become a linguist.
+                <div class="col-md-5">
+                    <h4>The RMC Lingo’s aims will:</h4>
+                    <h6 className="text-justify" >
+Better achieve its mission with respect to global education and foreign language education
+Serve as a model to other institutions in the field of foreign language education
 
 
-
-</h4>
+</h6>
 
                 </div>
                 <div class="col-md-6 how-img">

@@ -45,3 +45,8 @@ color: #ffa500;
     color: #ffa500;
         font-weight: bold;
 }
+.text-size h6 {
+    color: azure!important;
+    font-size: 20px !important;
+
+}

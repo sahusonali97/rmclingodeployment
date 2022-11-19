@@ -4,6 +4,10 @@ import HeroImage from '../components/HeroImage'
 import Navbar from '../components/Navbar'
 import TrainingSection from '../components/Training'
 import Exnav from '../components/Exnav'
+import TrainPage from '../components/TrainPage'
+
+import Cards from '../components/Cards'
+
 
 
 
@@ -16,7 +20,8 @@ const Training = () => {
             <HeroImage heading='TRAINING' text='Our virtual classes are real-time live streaming with native teachers who have years of experience teaching foreign languages. You will learn and practice foreign language at your convenience without stepping out from your home or office.
 ' />
             <TrainingSection />
-           
+           <TrainPage/>
+<Cards/>
             <Footer />
         </div>
     )
