@@ -1,0 +1,14 @@
+.text-style{
+    color: turquoise !important;
+
+}
+.size-text{
+   font-size : 14px;
+   
+}
+.cards{
+    width:600px;
+   height:580px;
+   margin-left: 25rem;
+   background-color: rgb(1, 80, 94);
+}

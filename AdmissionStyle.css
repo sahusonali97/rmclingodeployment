@@ -1,0 +1,30 @@
+.feed-img::onload{
+    opacity: 0.2;
+}
+
+.purecounter{
+    color: aliceblue;
+}
+
+#feed-card{
+    background-color: black;
+    opacity: 0.5;
+    padding: 50px;
+}
+
+#feed{
+    color: gold;
+    opacity: 1 !important;
+}
+
+#feed-card:hover{
+    opacity: 1;
+}
+
+.count-box{
+    opacity: 1 !important;
+}
+
+#title-feed{
+    color: aliceblue;
+}

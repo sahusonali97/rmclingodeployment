@@ -1,0 +1,52 @@
+
+.sizeA {
+    display:flex;
+    justify-content:space-around;
+    padding: 10px 50px;
+    background-color: rgba(2, 68, 94, 0.8)!important;
+    align-items:left;
+    color: rgb(10, 10, 10);
+    line-height: 40px;
+    height: 650px;
+
+    align-items:bottom;
+    padding: 1rem;
+    z-index: 10;
+    background: url('../assets/twint.png')  no-repeat right;
+    
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(21, 21, 22)!important;
+    
+    
+    
+}
+
+.redA{
+    color:rgb(247, 244, 244);
+    font-size: 350%;
+font-display:calc(10);
+color: #ffa500;
+        font-weight: bold;
+        font-size: 15px;
+
+}
+.text-style
+{
+    font-size: 10px; 
+    
+
+}
+.maq{
+    width: 30px !important;
+}
+.text-size p{
+    font-size: 50px !important;
+    color: #ffa500;
+        font-weight: bold;
+}
+.text-size h6 {
+    color: azure!important;
+    font-size: 20px !important;
+
+}
