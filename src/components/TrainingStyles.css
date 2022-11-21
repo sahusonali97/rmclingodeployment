@@ -30,7 +30,7 @@
 }
 
 .right .img {
-    max-width: 60%;
+    max-width: 80%;
     border: 1px solid #333;
 }
 
@@ -53,7 +53,7 @@
     }
 
     .training .img {
-        max-width: 80%;
+        max-width: 90%;
     }
 
 }

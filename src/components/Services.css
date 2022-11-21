@@ -1,0 +1,41 @@
+#services{
+    padding: 5px;
+  
+}
+.box-bg{
+    background-color: rgb(18, 18, 19);
+
+}
+
+.section-title{
+    color: aliceblue;
+    
+}
+
+
+/* .container-services{
+    background-color: rgb(18, 18, 19);
+    margin-bottom: 80px;
+    margin-top: 20px;
+    padding: 10px;
+} */
+
+
+
+h5{
+    color: aliceblue;
+}
+.service-text{
+    color: aliceblue;
+}
+
+#services{
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 30px;
+    margin: 0;
+    margin-right: 0px;
+    width: 100%;
+
+}
